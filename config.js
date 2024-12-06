@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "H6AASBIa#fO8zMkAiF6yCBh9YcinEQcaW-8X1Eyy5SCxASVa5JaQ",
   // add your Session Id 
 PREFIX: process.env.PREFIX || ".",
   // add your prifix for bot
@@ -13,7 +13,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/hzagwo.jpg",
 // add img for alive msg
 ALIVE_MSG: process.env.ALIVE_MSG || "> Zinda Hun Since ${runtime(process.uptime())} ⚡",
 // add alive msg here 
-SUDO_NB: process.env.SUDO_NB || "",
+SUDO_NB: process.env.SUDO_NB || "917872323303",
 // add your sudo number like 92314xxxxxx
 MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
   // add your mongodb
