@@ -17,7 +17,7 @@ SUDO_NB: process.env.SUDO_NB || "917872323303",
 // add your sudo number like 92314xxxxxx
 MONGODB: process.env.MONGODB || "mongodb+srv://kulathungaasitha319:yjHB0DvFfStNfwPS@cluster0.3oijd.mongodb.net/",
   // add your mongodb
-AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "True",
   // make true or false status auto seen
 MODE: process.env.MODE || "public",
   // make bot public or private 
